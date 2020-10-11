@@ -2,7 +2,7 @@
     margin: 0; padding: 0;}
  .conteiner {
     margin: 0 auto;
-    width: 67,5%; /*+/- 960 */
+    width: 100%; /* 67,5%; +/- 960 */
 }
 body {
     background-color:#ffffff;
@@ -82,11 +82,13 @@ form ::placeholder {
     float: left;
     font-size: .75em;
     margin: 1.5620% 0 0 0;
-    padding: 1.56250%;
-    text-align: center;
-    width: 100%;
     height: 0%;
+    text-align: center;
+    padding: 3.00%;
+    width: 100%;
+    background-color: #465c4a;
 }
+
 .rodape p {
     font-family: 'Luccida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
     sans-serif;
