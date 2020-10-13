@@ -70,7 +70,8 @@ form input[type=number] {
     border: 0;
     border-radius: 20px;
     transition: 1s;
-    margin: 10px 10px ;
+    margin-left: 4%;
+    margin-top: 5%;
 }
 form ::placeholder {
     color: #ffffff;
@@ -78,22 +79,19 @@ form ::placeholder {
     sans-serif;
 }
 .rolagem {
-    background-color: #465c4a;
     float: left;
-    font-size: .75em;
-    margin: 1.5620% 0 0 0;
-    height: 0%;
     text-align: center;
     padding: 3.00%;
     width: 100%;
-    background-color: #465c4a;
 }
-
-.rodape p {
+.rodape {
     font-family: 'Luccida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
     sans-serif;
-    color: #ffffff;
-    margin: .520833%;
-    font-size: 2em;
- }
+    color: #4c5750;
+    font-size: 1.5em;
+}
+
+
+    
+ 
 
