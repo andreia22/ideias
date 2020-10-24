@@ -4,3 +4,4 @@
 [1013/124953.160:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\andpa\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\a2708965-a610-40e0-b521-07a5ff7da493: O sistema não pode encontrar o caminho especificado. (0x3)
 [1013/124953.160:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\andpa\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\b6a0bdaf-7b35-4597-a190-e6adb0bed033: O sistema não pode encontrar o caminho especificado. (0x3)
 [1013/124953.160:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1014/154233.711:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
