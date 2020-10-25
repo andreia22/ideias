@@ -4,96 +4,106 @@
     margin: 0 auto;
     width: 100%; /* 67,5%; +/- 960 */
 }
-body {
-    background-image: url('imgback.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
- .cabecalho  {
-    text-align: center;
-    padding: 3.00%;
-    width: 94%;
+
+.cabecalho  {
+    display: inline-block;
+    padding: 3%;
+    width: 100%;
     background-color: #9ca19de0;
-    height: 30%;
+    height: 40%;
 }
 .cabecalho h1  {
+    display: flex;
     color: #ffffff;
     font-size: 2em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
-     sans-serif;
+    font-family:  'Vampiro One', cursive;
+    text-align: center; 
+    margin-left: 40ex;
 }
-.cabecalho h2  {
-    color: #ffffff;
-    font-size: 1.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
-     sans-serif;
+body {
+    background-image: url('maq3.jpg');
+    background-repeat: no-repeat;
+    margin-top: 30%;
 }
-.formulario h3 {
+ .formulario h3 {
     color:   rgb(59, 53, 53);
     font-size: 1em;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
      sans-serif;
-    margin-top: 3%; 
+    margin-top: 3%;
+    margin-bottom: 3%; 
 }
-label {
+ .formulario label {
+    display: flex;
     width: 100%;
-    height: 50%;
-    font-size: .9em;
-    color:   rgb(31, 29, 29);
+    height: 30%;
+    font-size: .8em;
+    color:   rgb(77, 72, 72);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
      sans-serif;
-    text-align: center;
-    margin-left: 10%;
+    margin-left: 5%;
+    padding: 0%;
 }
  .formulario {
+    background-color: rgb(218, 138, 169); 
+    position: relative; 
     float: right;
     text-align: left;
-    margin-top: 1em;
-    margin-right: 1.9em;
-    width: 20%;
+    margin-top: 2em;
+    margin-right: 3em;
+    width: 25%;
+    border-radius: 2%;
     
  }
 form input[type=text],
 form input[type=password],
 form input[type=number] {
-    background-color: #ffffff;          
-    width: 90%;
+    width: 99%;
     height: 30px;
-    border-radius: 10px rgb(14, 20, 16);
-    padding-left: 10%;
-    margin-right: 10%;
-    margin: 0.5% 0.5% ;
-    border: 0;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin: 10px 0;
+    border: 0ex;
+    padding: 0%;
+    
 }
  .formulario [type=submit]{
     width: 45%;
     height: 30px;
     cursor: pointer;
     background-color: #ffffff;
-    color: rgb(59, 53, 53);
-    border: 0;
+    color: rgb(29, 26, 26);
+    border-radius: 20px;
+    border: 0ex;
     text-align: center;
     transition: 1s;
-    margin-left: 0%;
+    margin-left: 30%;
     margin-bottom: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 form ::placeholder {
-    color: #ffffff;
+    display: flex;
+    color: #534a4a;
     font-family: 'Luccida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
     sans-serif;
+    margin-left: 0%;
+
 }
 .rolagem {
+    background-color:  #9ca19de0;
+    position: relative;
     float: left;
     text-align: center;
     padding: 3.00%;
     width: 100%;
+    height: 20%;
+    margin-top: 5%;
 }
 .rodape {
     font-family: 'Luccida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
     sans-serif;
-    color: #1d201e;
+    color: #535a55;
     font-size: 1.5em;
 }
 
