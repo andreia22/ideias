@@ -13,22 +13,27 @@
         <h1>Arte & Presentes online</h1>
     </header>
 
-
-<div class="formulario">
-    <div id="slideFoto"></div>
-    <form method="post" action="">
-        <h3>Cadastrar para receber ofertas</h3>
-        <label for="username">Qual seu nome?</label>
-        <input type="text" name="Nome"  placeholder="digite seu nome e sobrenome"/>
-        <label for="pergunta">Para quem voce dara presentes neste natal?</label>
-        <input type="text" name="Pergunta"  placeholder="digite sua resposta" maxlength="11"/>
-        <label for="email">Seu endereço de email</label>
-        <input type="text" name="Email" placeholder="digite seu email" />
-        <label for="password">Digite uma senha</label>
-        <input type="password" name="Email"placeholder="digite sua senha" maxlength="8"/>
-        <input type="submit" name="acao" value="Cadastrar"/>
+    <div id="slideFoto">
+        <button class="btnFotos">></button>
+        <div id="fotoLoad">
+            <div id="barrafotos"></div>
+        </div>   
+        <button class="btnFotos"><</button>
+    </div>    
        
-     </form>
+<div class="formulario"> 
+        <form method="post" action="">
+            <h3>Cadastrar para receber ofertas</h3>
+            <label for="username">Qual seu nome?</label>
+            <input type="text" name="Nome"  placeholder="digite seu nome e sobrenome"/>
+            <label for="pergunta">Para quem voce dara presentes neste natal?</label>
+            <input type="text" name="Pergunta"  placeholder="digite sua resposta" maxlength="11"/>
+            <label for="email">Seu endereço de email</label>
+            <input type="text" name="Email" placeholder="digite seu email" />
+            <label for="password">Digite uma senha</label>
+            <input type="password" name="Email"placeholder="digite sua senha" maxlength="8"/>
+            <input type="submit" name="acao" value="Cadastrar"/>
+       </form>
      </div>
      
 <div class="rolagem">  

@@ -90,7 +90,7 @@ form label::placeholder {
     sans-serif;
     margin-left: 2em;
 }
-.formulario #slideFoto {
+ #slideFoto {
     background-image: url('imagens/f1.jpg');
     background-repeat:no-repeat ;
     position: relative; 
@@ -102,8 +102,26 @@ form label::placeholder {
     padding: 20%;
     margin-left: 15em;
     object-fit: cover;
-    border-radius: 2%;
+    border-radius: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .btnFotos {
+    background-color: rgba(0,0,0,0.4);
+    height: 30%;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 5em;
     
+}
+#fotoLoad {
+    width: 100%;
+    height: 10%;
+    margin-top: 50em;
+    border: 1% solid rgba(255,255,255,0.3);
+
 }
 .rolagem {
     background-color:  #2b2c2be0;;

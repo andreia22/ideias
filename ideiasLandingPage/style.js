@@ -8,7 +8,7 @@ var tempoFoto;
 
 function pCarregamento(){
     var f=1;
-    for(var i=0; i<12; i++){
+    for(var i=0; i<10; i++){
         imagens[i]=new Image();
         imagens[i].src="imagens/f"+f+".jpg";
         f++;
