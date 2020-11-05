@@ -2,7 +2,7 @@
     margin: 0; padding: 0;}
 .conteiner {
     margin: 0 auto;
-    width: 100%;
+    width: 70%;
 }
 
 body {
@@ -51,7 +51,7 @@ body {
     text-align: left;
     margin-top: 7em;
     margin-right: -3em;
-    width: 25%;
+    width: 35%;
     border-radius: 2%;
 }
 form input[type=text],
@@ -69,18 +69,19 @@ form input[type=number] {
     border: 0;
 }
  .formulario [type=submit]{
-    width: 45%;
-    height: 30px;
+    position: relative;
+    width: 70%;
+    height: 100%;
     cursor: pointer;
     background-color: #ffffff;
     color: rgb(29, 26, 26);
     border-radius: 20em;
     border: 0ex;
-    text-align: center;
     transition: 1s;
-    margin-left: 30%;
+    margin-left: 15%;
     margin-bottom: 5%;
     margin-top: 5%;
+    
 }
 form label::placeholder {
     display: none;
@@ -92,15 +93,15 @@ form label::placeholder {
 }
  #slideFoto {
     background-image: url('imagens/f1.jpg');
-    background-repeat:no-repeat ;
+    background-repeat:no-repeat;
     position: relative; 
     float: left;
     margin-top: 5em;
     margin-right: 1em;
     width: 15%;
     height: 15%;
-    padding: 20%;
-    margin-left: 15em;
+    padding: 10%;
+    margin-left: 10em;
     object-fit: cover;
     border-radius: 3%;
     display: flex;
